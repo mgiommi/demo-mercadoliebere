@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #ebebeb;
+  margin: auto;
+  padding: auto;
+  position: absolute;
+}
+.font-yellow {
+  color: #eac926;
+}
+.bg-yellow {
+  background-color: #eac926;
+}
+.font-blue {
+  color: #03264c;
+}
+.bg-blue {
+  background-color: #03264c;
+}
+.font-ligth-blue {
+  color: #1259c3;
+}
+.bg-ligth-blue {
+  background-color: #1259c3;
+}
+.font-grey {
+  color: #666;
+}
+.bg-grey {
+  background-color: #666;
+}
+.font-ligth-grey {
+  color: #ebebeb;
+}
+.bg-ligth-grey {
+  background-color: #ebebeb;
+}
+.font-green {
+  color: #39b54a;
+}
+.bg-green {
+  background-color: #39b54a;
+}
+.heading {
+  font-size: 12px;
+}
+.large {
+  font-size: 18px;
+}
+.medium {
+  font-size: 16px;
+}
+.small {
+  font-size: 16px;
+}
+.header {
+  margin: auto;
+  padding: auto;
+}
+.nav-tittle {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.tittle {
+  width: 40%;
+  padding: 0px;
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  margin: auto;
+}
+.barra {
+  display: flex;
+  width: 45%;
+  height: 20%;
+  display: absolute;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.search-u {
+  width: 80%;
+  height: 28px;
+  border: none;
+  position: relative;
+  margin: 10% 0% 10% 0%;
+  border-radius: 4px;
+}
+.search {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  margin-left: -27px;
+  position: relative;
+  border: none;
+}
+.div-cuotas {
+  width: 40%;
+  margin: auto;
+  display: none;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.cuotas {
+  font-size: 65%;
+  padding: auto;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hand {
+  color: black;
+  background-color: #eac926;
+}
+.burguer {
+  width: 100%;
+  font-size: 20px;
+  position: relative;
+  margin-left: 0%;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-header {
+  width: 100%;
+  padding: 0%;
+  position: relative;
+  display: none;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+.nav-item1 {
+  width: 50%;
+  padding: 0%;
+  display: flex;
+  justify-content: flex-start;
+}
+.nav-item2 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-item3 {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  position: relative;
+  margin: 0 6px;
+  padding: 0%;
+  font-size: 80%;
+}
+.item-list {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.banner {
+  display: relative;
+}
+ul {
+  padding-left: 10px;
+}
+.main {
+  content: solid;
+  width: 90%;
+  margin: 10px;
+  padding: auto;
+}
+.product {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ebebeb;
+  margin: 10px;
+  padding: center;
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.image {
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+  margin: center;
+  padding: center;
+}
+.img {
+  margin: auto;
+}
+li a {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+header div i {
+  color: #ebebeb;
+  background-color: #1259c3;
+  font-size: 20px;
+  padding: 6px 3px;
+  margin: 6px 3px;
+  border-radius: 3px;
+  width: 30px;
+}
+footer ul i {
+  color: #1259c3;
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+  padding: 3px 3px;
+  margin: 3px 3px;
+  border-radius: 3px;
+  width: 20px;
+}
+footer li div {
+  text-align: center;
+  padding: 1px 15px;
+  margin: 1px 15px;
+}
+footer p {
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+}
+.cierre {
+  font-size: 12px;
+  padding: 6px;
+  text-align: left;
+}
+.contenedor0 {
+  display: flex;
+  position: relative;
+}
+.contenedor1 {
+  width: 1%;
+  display: flex;
+  position: relative;
+  align-items: right;
+  justify-content: right;
+}
+.item-truck {
+  margin: auto;
+  margin-top: 6px;
+  justify-items: right;
+}
+.truck {
+  width: 30px;
+  height: 30px;
+  border: solid 1px green;
+  color: green;
+  background-color: white;
+  border-radius: 100px;
+  position: relative;
+  margin: -15px;
+  left: 85%;
+}
+.tittle-section {
+  font-size: 150%;
+  margin: 15px;
+  padding: auto;
+  text-align: center;
+}
+.contenedor2 {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.descuento {
+  font-size: 16px;
+  color: #39b54a;
+  font-weight: bold;
+  margin: 0;
+  align-self: center;
+}
+.price {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  margin-left: 10px;
+  margin: 10px;
+}
+.description {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin: auto;
+  margin-left: 10px;
+}

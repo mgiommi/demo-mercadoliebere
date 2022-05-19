@@ -1,0 +1,48 @@
+.main {
+  margin: 0 auto;
+  padding: 20px;
+}
+.body {
+  width: 90%;
+  background-color: white;
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+.anchototal {
+  width: 60%;
+  margin: 10px;
+}
+.botonregister {
+  width: 100%;
+  background-color: #eac926;
+  color: white;
+  font-weight: bold;
+}
+.contenedor {
+  display: flex;
+}
+.span {
+  color: red;
+}
+.anchoerror {
+  width: 100%;
+}
+.form {
+  width: 90%;
+  margin: 10px;
+  background-color: white;
+}
+.h2 {
+  margin: 10px;
+}
+.bottom {
+  width: 30%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  background-color: #eac926;
+}
