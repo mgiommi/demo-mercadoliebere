@@ -38,11 +38,11 @@
     margin: 10px;
   }
   .description {
-    font-size: 15px;
+    font-size: 80%;
     font-weight: bold;
     color: black;
     margin: auto;
-    margin-left: 10px;
+    margin: 10px;
   }
   .product:hover {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -73,5 +73,29 @@
   }
   .nav-item2 {
     font-size: 100%;
+  }
+  .footer {
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    padding: auto;
+  }
+  .text-footer {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+  }
+  .div-footer {
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+  }
+  .ul-footer {
+    margin: 0%;
+    padding: 0%;
   }
 }
