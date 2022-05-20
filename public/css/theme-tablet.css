@@ -3,10 +3,6 @@
     display: none;
     width: 100%;
   }
-  .product {
-    box-shadow: none;
-    margin: 5px;
-  }
   .nav-item3 {
     display: none;
   }
@@ -79,5 +75,19 @@
   .nav-item2 {
     font-size: 70%;
     margin-top: -1px;
+  }
+  .section {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .product {
+    width: 45%;
+    box-shadow: none;
+    margin: 5px;
+  }
+  .description {
+    font-size: 80%;
+    margin: 10px;
   }
 }
