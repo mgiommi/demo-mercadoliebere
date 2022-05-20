@@ -50,7 +50,7 @@
     display: block;
   }
   .div-cuotas {
-    width: 50%;
+    width: 45%;
     display: block;
   }
   .div-cuotas2 {
@@ -72,5 +72,8 @@
   }
   .nav-item2 {
     font-size: 100%;
+  }
+  .cuotas {
+    font-size: 50%;
   }
 }
