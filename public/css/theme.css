@@ -296,6 +296,28 @@ footer p {
   font-size: 24px;
   font-weight: bold;
   color: black;
+  margin: 10px;
+}
+.footer {
+  width: 90%;
+  flex-wrap: wrap;
   margin: auto;
-  margin-left: 10px;
+  padding: auto;
+}
+.text-footer {
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+}
+.div-footer {
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+}
+.ul-footer {
+  margin: 10px;
+  padding: 0%;
 }
