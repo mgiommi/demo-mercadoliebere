@@ -2,10 +2,11 @@
   text-align: center;
 }
 .anchototal {
-  width: 30%;
+  width: 50%;
   margin: 1px;
   padding: auto;
   border-radius: 4px;
+  text-align: center;
 }
 .div-login {
   margin: auto;
@@ -13,11 +14,6 @@
   text-align: center;
 }
 .bottom {
-  width: 20%;
-  margin-bottom: 2px;
-}
-.div-footer1 {
-  margin: auto;
-  padding: auto;
-  text-align: center;
+  width: 30%;
+  margin-bottom: 1px;
 }

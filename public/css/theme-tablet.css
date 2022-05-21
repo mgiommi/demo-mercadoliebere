@@ -20,14 +20,14 @@
     justify-content: space-around;
   }
   .descuento {
-    font-size: 8px;
+    font-size: 12px;
     color: #39b54a;
     font-weight: bold;
-    margin: 0;
+    margin-left: -1%;
     align-self: center;
   }
   .price {
-    font-size: 12px;
+    font-size: 15px;
     color: black;
     font-weight: bold;
     margin-left: 10px;
@@ -89,28 +89,5 @@
   .description {
     font-size: 80%;
     margin: 10px;
-  }
-  .h2 {
-    text-align: center;
-  }
-  .anchototal {
-    width: 30%;
-    margin: 1px;
-    padding: auto;
-    border-radius: 4px;
-  }
-  .div-login {
-    margin: auto;
-    padding: auto;
-    text-align: center;
-  }
-  .bottom {
-    width: 20%;
-    margin-bottom: 2px;
-  }
-  .div-footer1 {
-    margin: auto;
-    padding: auto;
-    text-align: center;
   }
 }

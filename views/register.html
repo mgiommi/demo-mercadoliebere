@@ -13,8 +13,10 @@ rel="stylesheet" />
 <link rel="stylesheet" href="/css/normalize.css">
 <link rel="stylesheet" href="/css/styles.css">
 <link rel="stylesheet" href="/css/theme.css">
+<link rel="stylesheet" href="/css/theme-tablet.css">
 <link rel="stylesheet" href="/css/theme-desktop.css">
 <link rel="stylesheet" href="/css/theme-register.css">
+
 <meta name="viewport" content="width=device-wid th, initial-scale=1">
 </head>
 
@@ -23,20 +25,22 @@ rel="stylesheet" />
 <header class="bg-yellow header">
 
 <div class="nav-tittle">
-<div class="tittle"><img class="img" src="/images/logo-mercado-liebre.svg" alt="Logo"></a></div>
+    <div class="tittle"><a href="./"><img class="img" src="/images/logo-mercado-liebre.svg" alt="Logo"></a></div>
 
-<div class="barra"> <input placeholder="Buscar productos, marcas" class="search-u"><a href=""><i class="fas fa-search search"></i></a></div>
+<div class="barra"><input placeholder="Buscar productos, marcas" class="search-u"><a href=""><i class="fas fa-search search"></i></a></div>
+
+<div class="div-cuotas"><p class="cuotas" style="text-align: center"><i class="fas fa-hand-holding-usd hand"> </i> Comprá en cuotas y sin tarjeta de crédito </p> </div>
 
 </div>
 
-<div class="div-cuotas"><p class="cuotas" style="text-align: center"><i class="fas fa-hand-holding-usd hand"> </i> Comprá en cuotas y sin tarjeta de crédito </p> </div>
+<div class="div-cuotas2"><p class="cuotas" style="text-align: center"><i class="fas fa-hand-holding-usd hand"> </i> Comprá en cuotas y sin tarjeta de crédito </p> </div>
 
 <div class="burguer nav-item3"><a href=""><i class="fas fa-bars"></i></a></div>
 
 <section  class="nav-header">
 
 <ul class="nav-item1">
-<li class="item-list"><a class="item" href="">Ofertas </a></li>
+<li class="item-list"><a class="item" href="">Ofertas</a></li>
 <li class="item-list"><a class="item" href="">Tiendas Oficiales </a></li>
 <li class="item-list"><a class="item" href="">Vender</a></li>
 <li class="item-list"><a class="item" href="">Ayuda</a></li>
@@ -47,6 +51,7 @@ rel="stylesheet" />
     <li class="item-list"><a class="item" href="">Mis Compras <i class="fas fa-shopping-basket"></i> </a></li>
 </ul>
 </section>
+
 </header>
 
     <main >
@@ -89,24 +94,23 @@ rel="stylesheet" />
             </div>
 
             
-            <div>
+            
               <br>
               <h2 class="h2"> Perfil de usuario </h2>
                 <div class="contenedor">
                     <div class="contenedor2">
                     <input type="radio" name="perfil_usuario "  value ="Comprador"> 
                     <label > Comprador </label>
-                    </div>    
-                    <div class="contenedor2">  
+             
+                    <div class="contenedor3">  
                     <input type="radio" name="perfil_usuario "  value ="Vendedor"> 
                     <label > Vendedor </label>
                      </div> 
                 </div>
             </div>
-            <div>
               <br>
               <h2 class="h2"> Intereses </h2>
-                <div>
+        
                     <input type="checkbox" name="categoria-interes "  value ="Electro" id="categoria_electro"> 
                     <label for="categoria_electro"> Electro </label>
                 </div>
@@ -147,7 +151,7 @@ rel="stylesheet" />
 
         </form>
     </main>
-
+    <br>
     <footer class="footer">
         <ul class="ul-footer">
            <div class="div-footer1"> <i class="fas fa-credit-card"></i> </div>
