@@ -59,38 +59,34 @@ rel="stylesheet" />
 
           <h2 class="h2">Usuario</h2>
 <input type="password" name="Nombre de usuario"  placeholder="Nombre de usuario" class="anchototal" > 
-      <div> <span class="span">*Este campo es obligatorio</span></div>
+<div class="div-error"> <span class="span">*Este campo es obligatorio</span></div>
             <div>
                 <input type="password" name="password"  placeholder="Contraseña" class="anchototal" > 
-                <div> <span class="span"> *Debe contener al menos 1 letra Mayúscula y 1 caracter numérico</span></div>
+                <div class="div-error"> <span class="span"> *Debe contener al menos 1 letra Mayúscula y 1 caracter numérico</span></div>
             </div>
             <div>
                 <input type="password" name="password" placeholder="Confirmar contraseña" class="anchototal" >
-                <div> <span class="span"> *Las contraseñas ingresadas no coinciden</span></div>
+                <div class="div-error"> <span class="span"> *Las contraseñas ingresadas no coinciden</span></div>
             </div>
-            <div>
+        
               <br>
               <h2 class="h2">Datos Personales</h2>
                 <input type="text" name="nombreyapelido" placeholder="Nombre y apellido" class="anchototal"> 
-                <div></div><span class="span">*Este campo es obligatorio</span> </div>
-            </div>
-            <div>
+                <div class="div-error"><span class="span">*Este campo es obligatorio</span> </div>
                 <input type="text" name="nombreusuario" placeholder="Nombre de usuario" class="anchototal" > 
-                <div><span class="span">*Este campo es obligatorio</span></div>
-            </div>
-            <div>
+                <div class="div-error"><span class="span">*Este campo es obligatorio</span></div>
+   
                 <input type="text" name="email" placeholder="Email" class="anchototal" >
-               <div> <span class="span"> *Este campo tiene un error</span> </div>
+                <div class="div-error"> <span class="span"> *Este campo tiene un error</span> </div>
                <div>
                 <input type="text" name="Domicilio" placeholder="Domicilio" class="anchototal" >
-               <div> <span class="span"> *Este campo tiene un error</span> </div>
+                <div class="div-error"> <span class="span"> *Este campo tiene un error</span> </div>
             </div>
-            </div>
-            <div>
+        
               <br>
               <h2 class="h2">Fecha de nacimiento </h2>
                 <input type="date" name="date " class="anchototal" > 
-               <div> <span class="span"> *Este campo tiene un error</span></div>
+                <div class="div-error"> <span class="span"> *Este campo tiene un error</span></div>
             </div>
 
             
@@ -106,39 +102,38 @@ rel="stylesheet" />
                     <input type="radio" name="perfil_usuario "  value ="Vendedor"> 
                     <label > Vendedor </label>
                      </div> 
-                     <div> <span class="span"> *Debe seleccionar al menos una opción</span></div>
                 </div>
             </div>
+            <div class="div-error"> <span class="span"> *Debe seleccionar al menos una opción</span></div>
               <br>
               <h2 class="h2"> Intereses </h2>
-        
+        <section>
+            <div class="div-option">
                     <input type="checkbox" name="categoria-interes "  value ="Electro" id="categoria_electro"> 
                     <label for="categoria_electro"> Electro </label>
                 </div>
-                <div>
+                <div class="div-option">
                     <input type="checkbox" name="categoria-interes "  value ="Moda" id="categoria_moda"> 
                     <label for="categoria_moda"> Moda </label>
                 </div>
-                <div>
+                <div class="div-option">
                     <input type="checkbox" name="categoria-interes "  value ="Hogar" id="categoria_hogar"> 
                     <label for="categoria_hogar"> Hogar </label>
                 </div>
-                <div>
+                <div class="div-option">
                     <input type="checkbox" name="categoria-interes "  value ="Jugueteria" id="categoria_jugueteria"> 
                     <label for="categoria_jugueteria"> Jugueteria </label>
                 </div>
-                <div>
+                <div class="div-option">
                     <input type="checkbox" name="categoria-interes "  value ="VidaSana" id="categoria_vidasana"> 
                     <label for="categoria_vidasana"> Vida Sana </label>
-                    <div><span class="span"> *Debe seleccionar al menos una opción</span></div>
                 </div>
+                <div class="div-error"> <span class="span"> *Debe seleccionar al menos una opción</span></div>
+        </section>
 <br>
-            </div>
-
-            <div>
                 <input type="file" name="foto-perfil "  accept=".jpg, .png" class="anchototal"> 
-                <div><span class="span"> *El archivo contiene un formato incorrecto</span></div>
-            </div>
+            <div class="div-error"><span class="span"> *El archivo contiene un formato incorrecto</span></div>
+        
 <br>
             <div class="bottom">
                 <button type="submit" value="Enviar" class="botonregister" > Enviar </button>
@@ -173,6 +168,7 @@ rel="stylesheet" />
          </ul>
         
         </footer>
+        <br>
         
         <div class="cierre"> Copyright© 1999-2020 MercadoLiebre S.R.L </div>
         
