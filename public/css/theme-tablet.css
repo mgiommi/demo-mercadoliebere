@@ -100,12 +100,12 @@
     color: blue;
     transition: color 0.5s;
   }
-  @keyframes truck {
-    100% {
-      transform: rotate(-90deg);
-    }
+}
+@keyframes truck {
+  100% {
+    transform: rotate(-90deg);
   }
-  .item-truck:hover {
-    animation: truck 0.5s forwards;
-  }
+}
+.item-truck:hover {
+  animation: truck 0.5s forwards;
 }
