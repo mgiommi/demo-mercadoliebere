@@ -47,7 +47,7 @@
     margin: 5px;
   }
   .product:hover {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    box-shadow: 0px 0px 15px rgb(100, 100, 100);
   }
   .product:hover .description {
     display: block;
@@ -80,7 +80,7 @@
     font-size: 100%;
   }
   .footer {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     margin: auto;
@@ -97,7 +97,7 @@
   .div-footer {
     font-size: 90%;
     text-align: center;
-    margin: 5px;
+    margin: 0px;
     padding: 0%;
   }
   .ul-footer {
@@ -109,5 +109,13 @@
     margin: auto;
     padding: auto;
     text-align: center;
+  }
+  @keyframes truck {
+    100% {
+      transform: rotate(-90deg);
+    }
+  }
+  .item-truck:hover {
+    animation: truck 0.5s forwards;
   }
 }

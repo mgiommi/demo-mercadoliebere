@@ -6,7 +6,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   background-color: #ebebeb;
-  margin: auto;
+  margin: 0px 0px;
   padding: auto;
   position: absolute;
 }
@@ -235,9 +235,12 @@ footer p {
   font-weight: bold;
 }
 .cierre {
-  font-size: 12px;
-  padding: 6px;
-  text-align: left;
+  font-size: 15px;
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  background-color: white;
+  border: none;
 }
 .contenedor0 {
   display: flex;
@@ -299,10 +302,12 @@ footer p {
   margin: 10px;
 }
 .footer {
-  width: 90%;
+  width: 100%;
   flex-wrap: wrap;
-  margin: auto;
-  padding: auto;
+  margin: 0%;
+  padding: 0%;
+  background-color: white;
+  border: none;
 }
 .text-footer {
   list-style: none;
@@ -318,6 +323,16 @@ footer p {
   padding: 0%;
 }
 .ul-footer {
-  margin: 10px;
+  margin: 0px;
   padding: 0%;
+}
+.animation {
+  color: blue;
+}
+.animation:hover {
+  color: gold;
+}
+.animation {
+  color: blue;
+  transition: color 0.5s;
 }
