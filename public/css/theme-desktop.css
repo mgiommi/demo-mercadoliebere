@@ -118,4 +118,14 @@
   .item-truck:hover {
     animation: truck 0.5s forwards;
   }
+  .animation {
+    color: blue;
+  }
+  .animation:hover {
+    color: gold;
+  }
+  .animation {
+    color: blue;
+    transition: color 0.5s;
+  }
 }

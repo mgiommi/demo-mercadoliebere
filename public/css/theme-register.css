@@ -71,3 +71,13 @@
   margin-left: 10px;
   margin-bottom: 4px;
 }
+.animation {
+  color: blue;
+}
+.animation:hover {
+  color: gold;
+}
+.animation {
+  color: blue;
+  transition: color 0.5s;
+}

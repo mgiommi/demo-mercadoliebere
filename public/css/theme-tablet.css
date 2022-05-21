@@ -90,4 +90,22 @@
     font-size: 80%;
     margin: 10px;
   }
+  .animation {
+    color: blue;
+  }
+  .animation:hover {
+    color: gold;
+  }
+  .animation {
+    color: blue;
+    transition: color 0.5s;
+  }
+  @keyframes truck {
+    100% {
+      transform: rotate(-90deg);
+    }
+  }
+  .item-truck:hover {
+    animation: truck 0.5s forwards;
+  }
 }

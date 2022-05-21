@@ -17,3 +17,13 @@
   width: 30%;
   margin-bottom: 1px;
 }
+.animation {
+  color: blue;
+}
+.animation:hover {
+  color: gold;
+}
+.animation {
+  color: blue;
+  transition: color 0.5s;
+}
